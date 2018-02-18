@@ -1,0 +1,443 @@
+/*
+ * Box-sizing-model
+ */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*
+ * Responsive images
+*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*
+ * Cursor change on hover on Buttons
+*/
+input[type="submit"] {
+  cursor: pointer;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+html {
+  font-size: 10px;
+  line-height: 1.4;
+}
+body {
+  font-size: 1.6rem;
+  /* 10px * 1.6 = 16px */
+  font-family: 'Noto Sans';
+}
+p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.block {
+  background: #ffd84c;
+  padding: 20px;
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.line {
+  border-top: 1px solid #eaeff5;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+.title__aboutus {
+  margin-top: -15px;
+  margin-bottom: 27px;
+  font-size: 30px;
+}
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+/*# sourceMappingURL=main.css.map */
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+.navigation {
+  background-color: #fff;
+  text-align: right;
+  margin: 0;
+  padding-right: 105px;
+}
+.navigation__toggle {
+  display: block;
+  position: absolute;
+  font-size: 26px;
+  color: #fff;
+  top: 35px;
+  right: 5%;
+  background-color: #b77231;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding-top: 7px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .navigation__toggle {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .navigation__toggle {
+    display: none;
+  }
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: none;
+}
+@media (min-width: 768px) {
+  .navigation ul {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .navigation ul {
+    display: block;
+  }
+}
+.navigation ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.navigation ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 80px;
+  color: #000;
+}
+@media (min-width: 768px) {
+  .navigation ul li a {
+    padding: 15px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .navigation ul li a {
+    padding: 20px 40px;
+  }
+}
+.navigation ul li a:hover,
+.navigation ul li a:focus,
+.navigation ul li a:active {
+  background-color: #b77231;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.7;
+}
+header {
+  width: 100%;
+  height: 119px;
+  background: #e3e3e3 url("../img/logo/komodiki_050small.jpg") 5% 50%;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  header {
+    height: 130px;
+    background: #e3e3e3 url("../img/logo/komodiki_050.jpg") 15% 50%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    height: 130px;
+    background: #e3e3e3 url("../img/logo/komodiki_050.jpg") 12% 50%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background: #e3e3e3 url("../img/logo/komodiki_050.jpg") 9% 50%;
+    height: 180px;
+    background-repeat: no-repeat;
+  }
+}
+.header__phone {
+  width: 100%;
+  padding: 0 20px 0;
+}
+.header__phone p {
+  text-align: right;
+}
+@media (min-width: 768px) {
+  .header__phone {
+    padding: 0 105px 0;
+  }
+}
+@media (min-width: 992px) {
+  .header__phone {
+    padding: 0 105px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .header__phone {
+    padding: 0 105px 0;
+  }
+}
+.header__name {
+  width: 170px;
+  font-size: 22px;
+  margin-left: 100px;
+  margin-top: -3px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ddbf9b;
+}
+@media (min-width: 768px) {
+  .header__name {
+    width: 250px;
+    font-size: 28px;
+    margin-left: 210px;
+    padding-left: 40px;
+    margin-top: -12px;
+  }
+}
+@media (min-width: 992px) {
+  .header__name {
+    width: 280px;
+    font-size: 30px;
+    margin-left: 210px;
+    padding-left: 50px;
+    margin-top: -12px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__name {
+    font-size: 35px;
+    margin-left: 210px;
+    margin-top: 10px;
+    padding-left: 50px;
+    width: 311px;
+  }
+}
+h1 {
+  margin: 0;
+  padding-left: 115px;
+  padding-top: 1px;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  h1 {
+    padding-left: 255px;
+    padding-top: 5px;
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    padding-left: 268px;
+    padding-top: 5px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    padding-left: 285px;
+    padding-top: 7px;
+    font-size: 28px;
+  }
+}
+.four {
+  background-color: #e3e3e3;
+}
+.container__four {
+  padding: 54px 105px 94px;
+}
+.contant {
+  /*border: 3px solid #fff;*/
+}
+.four_block {
+  background-color: #b77231;
+  height: 60px;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .four_block {
+    height: 75px;
+  }
+}
+@media (min-width: 992px) {
+  .four_block {
+    height: 75px;
+  }
+}
+@media (min-width: 1200px) {
+  .four_block {
+    height: 75px;
+  }
+}
+.four_block p {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .four_block p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .four_block p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .four_block p {
+    font-size: 24px;
+  }
+}
+.top {
+  padding: 18px 18px 15px 18px;
+  text-align: right;
+  color: #fff;
+}
+.bottom {
+  padding: 15px 18px 18px 18px;
+  color: #fff;
+}
+.container__project {
+  padding: 45px 105px 94px;
+  background-color: #e3e3e3;
+}
+.project__block {
+  height: 435px;
+  background-color: #b77231;
+  border: 3px solid #fff;
+}
+.works {
+  height: 289px;
+  background-color: #b77231;
+  border: 3px solid #fff;
+  margin-top: 30px;
+}
+.contacts__img {
+  height: 417px;
+}
+.container__works {
+  padding: 27px 105px 94px;
+  background-color: #e3e3e3;
+}
+.contacts {
+  height: 183px;
+  background-color: #b77231;
+  border: 3px solid #fff;
+  margin-top: 30px;
+}
+.footer {
+  height: 50px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 3% 17%;
+}
+@media (min-width: 768px) {
+  .footer {
+    height: 30px;
+    margin-bottom: 0;
+    padding: 2% 16% 6%;
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    height: 30px;
+    margin-bottom: 0;
+    padding: 2% 11% 5%;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    padding: 10px 110px;
+    margin-bottom: 30px;
+  }
+}
+.footer__bg {
+  background-color: #e3e3e3;
+  height: 50px;
+}
+/*# sourceMappingURL=main.css.map */
