@@ -261,9 +261,9 @@ header {
 .header__name {
   width: 170px;
   font-size: 22px;
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: -3px;
-  padding-left: 10px;
+  padding-left: 20px;
   text-transform: uppercase;
   border-bottom: 2px solid #ddbf9b;
 }
@@ -296,7 +296,7 @@ header {
 }
 h1 {
   margin: 0;
-  padding-left: 115px;
+  padding-left: 95px;
   padding-top: 1px;
   font-size: 20px;
 }
@@ -325,10 +325,25 @@ h1 {
   background-color: #e3e3e3;
 }
 .container__four {
-  padding: 54px 105px 94px;
+  padding: 54px 40px 94px;
+}
+@media (min-width: 768px) {
+  .container__four {
+    padding: 54px 105px 94px;
+  }
+}
+@media (min-width: 992px) {
+  .container__four {
+    padding: 54px 105px 94px;
+  }
+}
+@media (min-width: 1200px) {
+  .container__four {
+    padding: 54px 105px 94px;
+  }
 }
 .contant {
-  /*border: 3px solid #fff;*/
+  margin-bottom: 40px;
 }
 .four_block {
   background-color: #b77231;
@@ -383,8 +398,23 @@ h1 {
   color: #fff;
 }
 .container__project {
-  padding: 45px 105px 94px;
+  padding: 45px 40px 94px;
   background-color: #e3e3e3;
+}
+@media (min-width: 768px) {
+  .container__project {
+    padding: 45px 105px 94px;
+  }
+}
+@media (min-width: 992px) {
+  .container__project {
+    padding: 45px 105px 94px;
+  }
+}
+@media (min-width: 1200px) {
+  .container__project {
+    padding: 45px 105px 94px;
+  }
 }
 .project__block {
   height: 435px;
@@ -401,8 +431,23 @@ h1 {
   height: 417px;
 }
 .container__works {
-  padding: 27px 105px 94px;
+  padding: 27px 40px 94px;
   background-color: #e3e3e3;
+}
+@media (min-width: 768px) {
+  .container__works {
+    padding: 27px 105px 94px;
+  }
+}
+@media (min-width: 992px) {
+  .container__works {
+    padding: 27px 105px 94px;
+  }
+}
+@media (min-width: 1200px) {
+  .container__works {
+    padding: 27px 105px 94px;
+  }
 }
 .contacts {
   height: 183px;
